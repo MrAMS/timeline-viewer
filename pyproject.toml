@@ -1,0 +1,12 @@
+[project]
+name = "timeline-viewer"
+version = "0.1.0"
+description = "对象事件甘特图查看器"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.0.0",
+    "pandas>=2.2.0,<3",
+    "plotly>=6.6.0",
+    "streamlit>=1.55.0",
+]
